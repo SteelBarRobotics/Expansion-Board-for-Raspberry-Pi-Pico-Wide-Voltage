@@ -189,7 +189,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845363"
+		(property "LCSC" "C160404"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -528,7 +528,7 @@
 		(path "/00000000-0000-0000-0000-00005ff90f48")
 		(sheetname "Root")
 		(sheetfile "PiicoDev-Expansion-Board-for-Raspberry-Pi-Pico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -797,7 +797,7 @@
 			(uuid "ac10de41-4bdf-40c4-a1f1-fa4f2d66d2c6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d6548b8-d9e0-48c4-a7db-f27662406bfc")
@@ -1352,7 +1352,7 @@
 		(path "/00000000-0000-0000-0000-00005ff91427")
 		(sheetname "Root")
 		(sheetfile "PiicoDev-Expansion-Board-for-Raspberry-Pi-Pico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1467,7 +1467,7 @@
 		(path "/00000000-0000-0000-0000-000060093256")
 		(sheetname "Root")
 		(sheetfile "PiicoDev-Expansion-Board-for-Raspberry-Pi-Pico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1582,7 +1582,7 @@
 		(path "/00000000-0000-0000-0000-0000600934c1")
 		(sheetname "Root")
 		(sheetfile "PiicoDev-Expansion-Board-for-Raspberry-Pi-Pico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1697,7 +1697,7 @@
 		(path "/509b33d4-a7f2-4aba-af2a-cdfcd8f9ba12")
 		(sheetname "Root")
 		(sheetfile "PiicoDev-Expansion-Board-for-Raspberry-Pi-Pico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 1)
 			(end 0.7 1)
@@ -6362,7 +6362,7 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "6ddfe571-da24-4372-b2fc-e749c1e75b86")
 			(effects
@@ -6373,7 +6373,7 @@
 			)
 		)
 		(property "Footprint" "CoreElectronics_Components:SolderJumper-3_P1.3mm_Closed_RoundedPad1.0x1.5mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d88b42e2-b038-48ae-b7f2-22b7517952b9")
@@ -6386,7 +6386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ccfccbce-96a4-4bc4-87e9-b15646bb3f39")
@@ -6399,7 +6399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "04ba1235-7d52-4467-943f-73e5e722077b")
@@ -6415,7 +6415,7 @@
 		(path "/00000000-0000-0000-0000-00006042b216")
 		(sheetname "Root")
 		(sheetfile "PiicoDev-Expansion-Board-for-Raspberry-Pi-Pico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2, 3")
 		(fp_line
 			(start 0.85 0)
@@ -8044,7 +8044,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "85527d42-b168-4d12-bb4a-8c8585c91d6c")
 			(effects
@@ -8212,7 +8212,7 @@
 			(uuid "88e10ada-5bf3-4dac-a3c6-a7e4f134394e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "be7857bc-1e41-40e5-ad34-1a535dc76fed")
 			(effects
@@ -8595,7 +8595,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "65463cfd-560b-4909-8586-03ad3d2dab95")
 			(effects
@@ -8763,7 +8763,7 @@
 			(uuid "b2a2ca6b-924b-436d-bbd5-779d06689596")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ca1378bd-47c4-4208-b12f-c55f4fa72d03")
 			(effects
@@ -8822,7 +8822,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d2dfca77-de23-4025-a9bd-e07fecb97c52")
 			(effects
@@ -8990,7 +8990,7 @@
 			(uuid "08f2ff97-5a73-4b7a-9e4a-bfe8151b2ea3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "22d62b69-9c78-4cb8-93e7-9dc4cd23fe83")
 			(effects
@@ -9405,7 +9405,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ed73c197-3492-4d27-93a9-c5b566d902ac")
 			(effects
@@ -9573,7 +9573,7 @@
 			(uuid "6948375c-6234-46e1-bea9-d07352835752")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "25d1e597-1667-4a07-9f1e-df03de863583")
 			(effects
@@ -9685,7 +9685,7 @@
 		(path "/02d70ee6-31bc-4cc0-99b1-84ee8a90f5e5")
 		(sheetname "Root")
 		(sheetfile "PiicoDev-Expansion-Board-for-Raspberry-Pi-Pico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 -1)
 			(end -0.7 -1)
@@ -13553,7 +13553,7 @@
 	(segment
 		(start 136.771 90.071)
 		(end 136.771 91.77)
-		(width 0.25)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 40)
 		(uuid "bf88c0fa-917b-4eaf-be59-98f614328800")
